@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Calculateur de moyennes scolaires – Algérie</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<h1>Calculateur de moyennes scolaires</h1>
+<p class="sub">Système éducatif algérien · par Aoudj Mayas</p>
+<p class="note">Les coefficients marqués « non confirmé » ne viennent pas d’un texte officiel que j’ai pu lire. Tu peux les modifier dans la case « coef » de chaque matière. Vérifie-les avec le ministère de l’Éducation nationale.</p>
+
+<section class="card">
+  <div class="row">
+    <div class="full"><label for="nom">Nom complet</label><input type="text" id="nom" autocomplete="name"></div>
+    <div><label for="age">Âge</label><input type="number" id="age" min="3" max="100"></div>
+    <div><label for="cycle">Établissement</label>
+      <select id="cycle"><option value="">Choisir…</option><option value="p">École primaire</option><option value="c">Collège</option><option value="l">Lycée</option></select></div>
+    <div id="wN" hidden><label for="niv">Niveau</label><select id="niv"></select></div>
+    <div id="wF" hidden><label for="fil">Filière</label><select id="fil"></select></div>
+  </div>
+</section>
+<section class="card" id="form" hidden></section>
+<section class="card res" id="res" hidden aria-live="polite"></section>
+<footer>par Aoudj Mayas</footer>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

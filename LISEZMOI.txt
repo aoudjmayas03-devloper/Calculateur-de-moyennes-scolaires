@@ -1,0 +1,8 @@
+Calculateur de moyennes scolaires - Algerie, par Aoudj Mayas
+
+index.html + style.css + script.js : interface web (ouvrir index.html dans un navigateur).
+calcul_moyenne.c : version console en C (gcc calcul_moyenne.c -o calcul).
+
+ATTENTION : les coefficients marques "non confirme" ne proviennent pas de textes officiels lus.
+Verifiez-les avec le ministere de l'Education nationale avant toute publication.
+La version C n'a pas ete mise a jour avec les coefficients 2026-2027, 1AS, 2AS et 3AS de l'interface web.
